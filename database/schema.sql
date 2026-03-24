@@ -1,0 +1,2 @@
+-- Estrutura inicial do banco de dados da SPASB
+-- Tabelas serão definidas na etapa de modelagem física
