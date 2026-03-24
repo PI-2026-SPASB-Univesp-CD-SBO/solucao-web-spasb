@@ -27,7 +27,7 @@ Permitir acesso simples ao sistema.
 |                                      |
 |           [   Entrar   ]             |
 ----------------------------------------
-
+```
 ## 2. Tela Dashboard
 
 ### Objetivo
@@ -58,7 +58,7 @@ Apresentar uma visão geral rápida dos principais indicadores.
 | Últimos lançamentos                                 |
 | data | categoria | valor | tipo                     |
 ------------------------------------------------------
-
+```
 ## 3. Tela de Lançamento Financeiro
 
 ### Objetivo
@@ -97,7 +97,7 @@ Registrar receitas e despesas de forma simples.
 |                                                      |
 | [ Salvar ]                     [ Cancelar ]          |
 ------------------------------------------------------
-
+```
 ## 4. Tela de Registro Clínico
 
 ### Objetivo
@@ -130,7 +130,7 @@ Registrar procedimentos clínicos realizados.
 |                                                     |
 | [ Salvar ]                 [ Cancelar ]             |
 ------------------------------------------------------
-
+```
 ## 5. Tela de Relatórios
 
 ### Objetivo
@@ -162,4 +162,4 @@ Permitir a consulta e análise dos dados.
 ------------------------------------------------------
 |                 Tabela de resultados                |
 ------------------------------------------------------
-
+```
