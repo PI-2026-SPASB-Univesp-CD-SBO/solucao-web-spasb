@@ -28,6 +28,22 @@ Permitir acesso simples ao sistema.
 |           [   Entrar   ]             |
 ----------------------------------------
 
+## 2. Tela Dashboard
+
+### Objetivo
+Apresentar uma visão geral rápida dos principais indicadores.
+
+### Elementos principais
+- total de consultas no mês;
+- total de castrações no mês;
+- total de entradas;
+- total de despesas;
+- saldo atual;
+- gráfico de movimentação;
+- lista de lançamentos recentes.
+
+### Estrutura sugerida
+```text
 ------------------------------------------------------
 | Logo SPASB                     Usuário | Sair       |
 ------------------------------------------------------
@@ -43,6 +59,32 @@ Permitir acesso simples ao sistema.
 | data | categoria | valor | tipo                     |
 ------------------------------------------------------
 
+## 3. Tela de Lançamento Financeiro
+
+### Objetivo
+Registrar receitas e despesas de forma simples.
+
+### Elementos principais
+- data;
+- tipo: entrada ou saída;
+- categoria;
+- descrição;
+- valor;
+- observação;
+- botão salvar.
+
+### Categorias iniciais
+- valor de entrada;
+- valor de exames;
+- taxa de adoção;
+- compra de microchip;
+- higiene e limpeza;
+- ração;
+- medicamentos;
+- verba da prefeitura.
+
+### Estrutura sugerida
+```text
 ------------------------------------------------------
 | Financeiro > Novo lançamento                        |
 ------------------------------------------------------
@@ -56,6 +98,27 @@ Permitir acesso simples ao sistema.
 | [ Salvar ]                     [ Cancelar ]          |
 ------------------------------------------------------
 
+## 4. Tela de Registro Clínico
+
+### Objetivo
+Registrar procedimentos clínicos realizados.
+
+### Elementos principais
+- data;
+- tipo de atendimento;
+- detalhe;
+- valor relacionado;
+- observação;
+- botão salvar.
+
+### Tipos de atendimento
+- consulta;
+- castração;
+- exame;
+- procedimento.
+
+### Estrutura sugerida
+```text
 ------------------------------------------------------
 | Clínico > Novo registro                             |
 ------------------------------------------------------
@@ -68,6 +131,20 @@ Permitir acesso simples ao sistema.
 | [ Salvar ]                 [ Cancelar ]             |
 ------------------------------------------------------
 
+## 5. Tela de Relatórios
+
+### Objetivo
+Permitir a consulta e análise dos dados.
+
+### Elementos principais
+- filtro por período;
+- filtro por categoria;
+- resumo financeiro;
+- gráfico;
+- listagem dos resultados.
+
+### Estrutura sugerida
+```text
 ------------------------------------------------------
 | Relatórios                                          |
 ------------------------------------------------------
@@ -85,5 +162,4 @@ Permitir acesso simples ao sistema.
 ------------------------------------------------------
 |                 Tabela de resultados                |
 ------------------------------------------------------
-
 
