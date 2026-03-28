@@ -53,6 +53,12 @@ O sistema deve permitir a emissão de relatórios financeiros.
 ### RF16
 O sistema deve permitir a visualização de gráficos de desempenho.
 
+### RF17
+O sistema deve permitir o registro de Notas Fiscais (NFs) vinculadas às despesas.
+
+### RF18
+O sistema deve atualizar automaticamente o saldo geral e o saldo da verba da prefeitura a cada nova entrada ou saída registrada.
+
 ## 2. Requisitos não funcionais
 
 ### RNF01
@@ -86,6 +92,9 @@ Os campos de exames e procedimentos deverão possuir opções selecionáveis par
 
 ### RN04
 A solução deverá apoiar a geração de relatórios e gráficos para acompanhamento da clínica.
+
+### RN05
+A verba da prefeitura (Repasse SOS) não gera lucro para a SPASB. O sistema deve descontar 50% do valor padrão das consultas terceirizadas quando pagas com essa verba, exigindo a apresentação de Nota Fiscal.
 
 ## 4. Observação
 Estes requisitos são iniciais e poderão ser refinados após validação com a representante da SPASB e análise do protótipo.
