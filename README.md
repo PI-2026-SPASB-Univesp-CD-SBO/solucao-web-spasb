@@ -64,11 +64,7 @@ Responsável pelo armazenamento estruturado das informações financeiras e clí
 - `frontend/`: protótipos, wireframes e materiais de interface.
 
 ## Tecnologias previstas
-As tecnologias serão definidas oficialmente pela equipe, considerando:
-- linguagem de programação para o back-end;
-- framework web;
-- SGBD relacional;
-- tecnologias de interface para o front-end.
+Back-end em Node.js (JavaScript), Banco de Dados Relacional em SQLite, e Front-end em HTML/CSS/JS
 
 ## Status do projeto
 Projeto acadêmico em desenvolvimento no âmbito do Projeto Integrador da Univesp.
