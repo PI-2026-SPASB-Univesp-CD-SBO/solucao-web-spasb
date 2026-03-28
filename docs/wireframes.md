@@ -94,6 +94,9 @@ Registrar receitas e despesas de forma simples.
 | Descrição:   [_______________________________]      |
 | Valor:       [_______________________________]      |
 | Observação:  [_______________________________]      |
+| Categoria: [ selecionar ]                           |
+| Nota Fiscal (Opcional): [_____________________]     |
+| Descrição: [_______________________________]        |
 |                                                      |
 | [ Salvar ]                     [ Cancelar ]          |
 ------------------------------------------------------
